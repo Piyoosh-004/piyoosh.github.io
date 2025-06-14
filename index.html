@@ -3,35 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piyoosh R. Thakre - Portfolio</title>
+    <title>Piyoosh Thakre - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="nav-brand">Piyoosh R. Thakre</div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <a href="#hero">Piyoosh Thakre</a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
         <section id="hero">
             <div class="container">
-                <h1>Piyoosh R. Thakre</h1>
-                <h2>Software Developer (Undergrad)</h2>
+                <h1>Piyoosh Thakre</h1>
+                <h2>Software Developer</h2>
                 <div class="contact-info">
                     <a href="mailto:thakrepiyoosh04@gmail.com">thakrepiyoosh04@gmail.com</a> |
-                    <a href="https://rongq.site" target="_blank">rongq.site</a>
+                    <a href="https://rongq.site" target="_blank">rongq.site</a> |
+                    <a href="https://github.com/Piyoosh-004" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
         </section>
@@ -139,6 +144,55 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="project-card">
+                    <h3>Document Vault</h3>
+                    <p class="project-description">A secure document management system that allows users to store, organize, and share their important documents with advanced security features and user-friendly interface.</p>
+                    
+                    <div class="project-details">
+                        <div class="key-features">
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Secure document storage and encryption</li>
+                                <li>User authentication and authorization</li>
+                                <li>Document version control</li>
+                                <li>File sharing with permission controls</li>
+                                <li>Search and filter functionality</li>
+                                <li>Responsive design for all devices</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tech-stack">
+                            <h4>Technologies Used</h4>
+                            <div class="tech-categories">
+                                <div>
+                                    <h5>Frontend</h5>
+                                    <ul>
+                                        <li>React.js</li>
+                                        <li>Material-UI</li>
+                                        <li>Redux</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h5>Backend</h5>
+                                    <ul>
+                                        <li>Node.js</li>
+                                        <li>Express.js</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h5>Security</h5>
+                                    <ul>
+                                        <li>JWT Authentication</li>
+                                        <li>File Encryption</li>
+                                        <li>Role-based Access Control</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -147,7 +201,7 @@
                 <h2>Education & Certifications</h2>
                 <div class="education-item">
                     <h3>BCA</h3>
-                    <p>GH Raisoni, Amravati University | 2025</p>
+                    <p>GH Raisoni, Amravati University</p>
                 </div>
             </div>
         </section>
@@ -165,7 +219,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Piyoosh R. Thakre. All rights reserved.</p>
+            <p>&copy; 2025 Piyoosh Thakre. All rights reserved.</p>
         </div>
     </footer>
     <script src="script.js"></script>
